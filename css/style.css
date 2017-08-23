@@ -81,8 +81,8 @@
       font-size: 45px;
       line-height: 120%;
       opacity: 0;
-      // -webkit-transform: translateX(500px);
-      // transform: translateX(500px);
+      /*// -webkit-transform: translateX(500px);
+      // transform: translateX(500px);*/
   }
   .slider h1 {
     color: white;
@@ -96,8 +96,8 @@
       font-size: 15px;
       line-height: 30px;
       display: inline-block;
-      // -webkit-transform: translateX(-500px);
-      // transform: translateX(-500px);
+      /*// -webkit-transform: translateX(-500px);
+      // transform: translateX(-500px);*/
   }
   .slider h2, .slider .button {
       -webkit-transition: opacity 800ms, -webkit-transform 800ms;
@@ -202,6 +202,10 @@
       transform: translateX(0);
       opacity: 1
   }
+
+section {
+  height: 100vh;
+}
 
 @media only screen and (max-width: 767px) {
   .slider h2 {
